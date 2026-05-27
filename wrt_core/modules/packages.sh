@@ -433,7 +433,7 @@ update_smartdns() {
 
 update_diskman() {
     local path="$BUILD_DIR/feeds/luci/applications/luci-app-diskman"
-    local repo_url="https://github.com/lisaac/luci-app-diskman.git"
+    local repo_url="https://github.com/liker5092/luci-app-diskman.git"
     if [ -d "$path" ]; then
         echo "正在更新 diskman..."
         cd "$BUILD_DIR/feeds/luci/applications" || return
